@@ -1,0 +1,53 @@
+manifestVersion: 1
+id: bones-swingmusic
+name: Swing Music
+tagline: Um lindo reprodutor de música auto-hospedado para seus arquivos de áudio locais
+icon: https://i.imgur.com/B9R2I6L.png
+category: mídia
+version: "1.4.8"
+port: 1970
+description: >-
+  O Swing Music é um player de música elegante e auto-hospedado, criado para sua coleção pessoal de áudio. Ao contrário de serviços de streaming como o Spotify, você tem controle total sobre sua biblioteca — apenas as músicas que você ama são selecionadas. Basta iniciar o aplicativo e acessar toda a sua coleção diretamente do seu navegador. Desfrute de reprodução contínua, recursos avançados de playlist e uma interface intuitiva que parece um serviço de música personalizado. Com o Swing Music, você aproveita ao máximo sua música sem assinaturas ou anúncios — apenas você e suas músicas favoritas.
+
+  Aqui estão alguns recursos interessantes oferecidos pelo Swing Music:
+
+  🎶 Deduza informações sobre a versão do álbum (deluxe, etc.) a partir do título do álbum e use-as para agrupar álbuns
+
+  🎧 Descubra novas músicas explorando artistas semelhantes na página do artista
+
+  🆕 Descubra novos álbuns explorando álbuns semelhantes na página do álbum
+
+  ✅ Projetado para ser simples e bonito. É um prazer visual.
+  
+  📚 Navegue pela sua biblioteca por pastas. É a maneira mais natural de organizar suas músicas.
+
+
+  🖥️ Sem interface gráfica integrada, sem Electron que consome muita memória. Basta carregar a interface no seu navegador favorito.
+
+
+  📝 Nem sempre é possível acertar a ortografia. Ele lida com erros de digitação e ortografia como um campeão.
+
+
+  📑 Ele pode detectar e ocultar faixas duplicadas da sua biblioteca. A faixa com a maior taxa de bits é a preferida.
+
+
+  🚀 O Swing Music ainda é um projeto jovem e há muitos recursos interessantes para lançamentos futuros. Fique ligado!
+
+developer: Mungai Njoroge
+website: https://swingmx.com/
+submitter: Bones Umbrel
+submission:
+repo: https://github.com/swingmx/swingmusic
+support: https://github.com/swingmx/swingmusic/issues
+gallery:
+  - https://i.imgur.com/RlQXxFP.png
+  - https://i.imgur.com/LeHkYzK.png
+  - https://i.imgur.com/hh1dX0R.png
+  - https://i.imgur.com/tM9ojJq.png
+  - https://i.imgur.com/9fXRfQC.png
+releaseNotes: >-
+  Um novo layout opcional sem barra lateral foi adicionado, juntamente com uma barra de pesquisa superior e conteúdo centralizado no layout padrão. O aplicativo agora usa um servidor WSGI mais robusto, suporta ARM64 e possui uma correção de fuso horário adequada. Itens recentes exibem há quanto tempo foram reproduzidos/adicionados, sem limite de tempo. Correções de bugs incluem gerenciamento de fila aprimorado, limites de playlists, atalhos de teclado e funcionalidade de plugins para letras de músicas.
+dependencies:
+path: ""
+defaultUsername: "admin"
+defaultPassword: "admin"
