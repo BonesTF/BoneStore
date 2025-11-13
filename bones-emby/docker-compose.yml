@@ -1,0 +1,19 @@
+services:
+  emby:
+    image: lscr.io/linuxserver/emby:latest
+    container_name: emby
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Etc/UTC
+    volumes:
+      - ${APP_DATA_DIR}/data/library:/config
+      - ${UMBREL_ROOT}/data/storage/downloads:/downloads
+      - ${UMBREL_ROOT}/data/storage/Videos:/Videos
+      - /opt/vc/lib:/opt/vc/lib #optional
+    ports:
+      - 8096:8096 #http web interface
+      - 8920:8920 #https web interface
+    devices:
+      - /dev/dri:/dev/dri #optional
+    restart: unless-stopped
