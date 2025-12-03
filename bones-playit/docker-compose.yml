@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  playit-docker:
+    container_name: playit-docker
+    image: pepaondrugs/playitgg-docker:latest
+    volumes:
+      - playit-volume:/secret
+    restart: unless-stopped
+
+volumes:
+  playit-volume:
+    external: false

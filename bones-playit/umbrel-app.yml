@@ -1,0 +1,26 @@
+manifestVersion: 1
+id: bones-playit
+name: PlayitGG
+tagline: Para Minecraft.
+icon: https://i.ibb.co/8gsQVs6x/playit-icon.png
+category: host
+version: "4.4.9"
+port: 
+description:
+  Oferece um IP estático e uma porta gratuitos que qualquer pessoa pode usar para se 
+  conectar ao seu servidor. Não é necessário encaminhamento de porta.
+
+developer: PlayIT Cloud
+website: https://playit.gg/
+submitter: Bones Umbrel
+submission:
+repo: https://github.com/playit-cloud/playit-agent
+support: https://playit.gg/support/
+gallery:
+  - 
+releaseNotes: >-
+  
+dependencies:
+path: ""
+defaultUsername: "admin"
+defaultPassword: ""
